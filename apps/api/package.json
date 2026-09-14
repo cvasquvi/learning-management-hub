@@ -20,11 +20,11 @@
           }
         ],
         "outputs": [
-          "{workspaceRoot}/apps/api/dist/package.json",
-          "{workspaceRoot}/apps/api/dist/pnpm-lock.yaml",
-          "{workspaceRoot}/apps/api/dist/pnpm-workspace.yaml",
-          "{workspaceRoot}/apps/api/dist/patches",
-          "{workspaceRoot}/apps/api/dist/local_path_modules"
+          "{workspaceRoot}/dist/apps/api/package.json",
+          "{workspaceRoot}/dist/apps/api/pnpm-lock.yaml",
+          "{workspaceRoot}/dist/apps/api/pnpm-workspace.yaml",
+          "{workspaceRoot}/dist/apps/api/patches",
+          "{workspaceRoot}/dist/apps/api/local_path_modules"
         ],
         "options": {
           "buildTarget": "build"
@@ -36,7 +36,7 @@
         ],
         "cache": true,
         "outputs": [
-          "{workspaceRoot}/apps/api/dist/workspace_modules"
+          "{workspaceRoot}/dist/apps/api/workspace_modules"
         ],
         "executor": "@nx/js:copy-workspace-modules",
         "options": {

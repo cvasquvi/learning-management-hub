@@ -2,7 +2,13 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "web:serve": "pnpm nx serve web",
+    "api:serve": "pnpm nx serve api",
+    "web:build": "pnpm nx build web",
+    "api:build": "pnpm nx build api",
+    "build": "pnpm nx run-many -t build"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/core": "~22.1.0",
