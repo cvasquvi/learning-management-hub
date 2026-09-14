@@ -1,0 +1,10 @@
+<main class="app">
+  <h1>Hola Mundo</h1>
+  <p class="subtitle">{{ title }}</p>
+
+  @if (error()) {
+    <p class="error">{{ error() }}</p>
+  } @else {
+    <p class="message">{{ message() }}</p>
+  }
+</main>
