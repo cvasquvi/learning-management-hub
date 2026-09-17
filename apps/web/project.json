@@ -25,7 +25,7 @@
       },
       "configurations": {
         "production": {
-          "baseHref": "/ui/learning-management-hub/",
+          "baseHref": "/ui/front-learning-management-hub/",
           "budgets": [
             {
               "type": "initial",
